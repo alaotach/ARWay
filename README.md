@@ -1,7 +1,7 @@
 # 🌐 React Native Outdoor Navigation
 
 ## 🐜 Project Overview
-Welcome to the **React Native Outdoor Navigation** project! This application leverages the **Google Maps API** to provide real-time route generation and navigation. It displays a visually appealing **blue path** to guide users from their starting point to their destination.
+Welcome to the **React Native Campus Navigation System** project! This application leverages the **Google Maps API** to provide real-time route generation and navigation. It displays a visually appealing **blue path** to guide users from their starting point to their destination.
 
 ---
 
