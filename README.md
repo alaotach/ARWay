@@ -16,39 +16,17 @@ Welcome to the **React Native Outdoor Navigation** project! This application lev
 ## 🤖 Installation & Setup
 
 ### 1️⃣ Initialize React Native Project
-```sh
-npx react-native init NavigationApp
-cd NavigationApp
-```
+clone using git clone and change to working directory
 
 ### 2️⃣ Install Required Dependencies
 ```sh
-npm install react-native-maps react-native-geolocation-service axios
+npm i
 ```
 
----
-
-## ⚙️ Configuration
-
-### ✅ Enable Location Permissions  
-
-#### 📌 Modify `AndroidManifest.xml` (For Android):
-```xml
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+```sh
+npx expo start
 ```
 
-#### 📌 Modify `Info.plist` (For iOS):
-```xml
-<key>NSLocationWhenInUseUsageDescription</key>
-<string>We need your location for navigation</string>
-```
-
-### ✅ Set Up Google Maps API Key  
-1. Generate an API key from **Google Cloud Console**.  
-2. Enable **Google Maps & Directions API**.  
-3. Replace `"YOUR_API_KEY"` in the code with your actual key.  
-
----
 
 ## 🗺️ How It Works  
 
@@ -61,22 +39,9 @@ npm install react-native-maps react-native-geolocation-service axios
 👉 Transforms route’s **GPS coordinates** into **map-friendly points**.  
 👉 Draws a **blue path** on the map using `Polyline`.  
 
----
+easy accessibility to hotspots of jnu.
+real time navigation system from location.
 
-## ▶️ Running the Project  
-
-### **Android**
-```sh
-npx react-native run-android
-```
-> **Note:** Ensure you run this on a **physical device** for accurate GPS location.
-
----
-
-## 🎯 Final Steps & Optimization  
-👉 **Calibrate:** Adjust **GPS-to-map scaling** for improved accuracy.  
-👉 **Optimize:** Improve **battery usage** by limiting GPS polling frequency.  
-👉 **Fine-tune:** Enhance **map path rendering** for smoother visuals.  
 
 ---
 
