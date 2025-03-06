@@ -39,8 +39,8 @@ interface LocationSubscription {
 const CAMPUS_REGION = {
   latitude: 28.544051,
   longitude: 77.1694887,
-  latitudeDelta: 0.01,
-  longitudeDelta: 0.01,
+  latitudeDelta: 0.005,
+  longitudeDelta: 0.005,
 };
 
 const generateUniqueId = () => {
@@ -52,13 +52,13 @@ const BUILDINGS = [
   {
     id: '1',
     name: 'Main Library',
-    coordinate: { latitude: 40.7138, longitude: -74.0065 },
+    coordinate: { latitude: 28.5406024, longitude: 77.1656729 },
     description: 'Central library with study spaces',
   },
   {
     id: '2',
     name: 'Student Center',
-    coordinate: { latitude: 40.7118, longitude: -74.0055 },
+    coordinate: { latitude: 28.5470794, longitude: 77.1694262 },
     description: 'Student activities and dining',
   },
 ];
